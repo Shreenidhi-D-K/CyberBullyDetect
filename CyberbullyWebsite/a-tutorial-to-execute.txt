@@ -1,0 +1,22 @@
+Before running the files, go to getModelOutput.py
+Check for comments indicating the update to joblib paths
+SVMmodel.joblib and SVMvectorizer.joblib paths should be updated in the mentioned area
+
+Please ensure necessary python libraries are already existing in your machine
+Run the following two commands in your console.
+command 1 : pip install Flask flask-cors pandas joblib nltk
+command 2 : python -m nltk.downloader stopwords wordnet
+
+
+open this folder 'cyberbullywebsite' in your vscode
+type in your console:
+    cd my-react-app
+then type:
+    npm start
+
+open a new terminal
+run the python file:
+    python getModelOutput.py
+
+in a browser open localhost:3000
+text input can be given into the text fields to give you the output
